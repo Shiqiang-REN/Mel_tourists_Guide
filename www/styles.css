@@ -1,0 +1,114 @@
+.my-main{
+    position: relative; 
+}
+
+.col-sm-4:has(.my-sidebar) {
+    position: absolute; 
+    width: 300px; 
+    z-index:999;
+    margin-top: 100px;
+}
+
+.search-bar {
+    width: 350px;
+    position: absolute; 
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 999;
+}
+
+.search-bar .form-group{
+  margin-top:50px;
+  width: 350px;
+}
+#trading_name_buttons {
+  background-color: white;
+}
+
+#trading_name_buttons div button {
+  border: none;
+  width: 100%;
+}
+
+#trading_name_buttons div button:hover {
+  background-color: #31b0d5;
+}
+
+.modal-dialog{
+  width: 1050px;
+  height: 90%;
+}
+
+.modal-content{
+  height: 100%;
+}
+
+.modal-body{
+  height: 100%;
+}
+
+.top-button button{
+  border-radius: 10px;
+  width: 205px;
+}
+
+#show_modal1{
+  border-radius: 10px;
+  width: 205px;
+}
+
+#show_modal2{
+  border-radius: 10px;
+  width: 205px;
+}
+
+#user_input-label{
+
+  font-style: italic; 
+  width: 100%;
+  text-align: center;
+}
+
+#shiny-modal{
+  z-index: 99999;
+}
+
+.top-popup{
+  width: 300px;
+  height: 330px;
+  z-index: 99999;
+}
+
+.top-popup strong{
+  font-size: 20px;
+}
+
+.top-popup img{
+  width: 300px;
+  height: 210px;
+}
+
+.top-popup p{
+  font-size: 15px;
+}
+
+#image_div{
+  position: absolute;
+  top: 0;
+  right:50px;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+  background-color: #f5f5f5;
+  margin-top:50px;
+  border-radius: 20px;
+  padding-top: 15px;
+}
+
+#image_div p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
